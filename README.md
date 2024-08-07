@@ -1,14 +1,7 @@
-<div style="position: relative; text-align: center; color: white; padding: 20px;">
-  <!-- Image de fond avec opacité -->
-  <div style="
-    background-image: url('/wp-pay-pi.png');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0; bottom: 0; left: 0; right: 0;
-    opacity: 0.3; /* Ajuster l'opacité */
-    z-index: -1;
-  "></div>
+<div>
+  <div style="background-color: rgba(0,0,0,0.1); padding: 20px;">
+    <img src="/wp-pay-pi.png" alt="Logo de WP-Pay-Pi" />
+  </div>
   
   <!-- Contenu -->
   <h1>WP-PAY-PI</h1>
