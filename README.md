@@ -1,6 +1,18 @@
-
-<div align="center">
-  <img src="/wp-pay-pi.png" alt="Logo de WP-Pay-Pi" />
+<div style="position: relative; text-align: center; color: white; padding: 20px;">
+  <!-- Image de fond avec opacité -->
+  <div style="
+    background-image: url('/wp-pay-pi.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    opacity: 0.3; /* Ajuster l'opacité */
+    z-index: -1;
+  "></div>
+  
+  <!-- Contenu -->
+  <h1>WP-PAY-PI</h1>
+  <p>Le plugin WP-Pay-Pi a pour objectif d'intégrer une solution de paiement utilisant le portefeuille Pi Network directement sur un site WordPress. Cela permettra aux propriétaires de sites WordPress de proposer une méthode de paiement innovante et sécurisée utilisant la cryptomonnaie Pi.</p>
 </div>
 
 # WP-PAY-PI
