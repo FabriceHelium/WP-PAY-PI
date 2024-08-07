@@ -1,6 +1,6 @@
 <div>
-  <div style="background-color: rgba(0,0,0,0.1); padding: 20px;">
-    <img src="/wp-pay-pi.png" alt="Logo de WP-Pay-Pi" />
+  <div align="center">
+    <img src="/wp-pay-pi.png" alt="Logo de WP-Pay-Pi" style="background-color: white;" />
   </div>
   
   <!-- Contenu -->
