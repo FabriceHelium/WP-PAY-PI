@@ -16,6 +16,10 @@
 ### Options de Paiement
 - Ajoute une option de paiement "Payer avec Pi" sur les pages de produits et de panier de WooCommerce (ou tout autre plugin e-commerce utilisé).
 
+### Gestion des Devises
+- Prend en compte la devise du produit WooCommerce pour afficher correctement le prix en Pi.
+- Conversion automatique basée sur le taux de change entre la devise sélectionnée et Pi.
+
 ### Sécurité
 - Utilisation des meilleures pratiques de sécurité pour garantir que les transactions Pi sont sûres et sécurisées.
 - Intégration de la vérification des transactions pour éviter les fraudes.
@@ -41,6 +45,7 @@
 - Créer les fonctionnalités de base du plugin.
 - Développer l'interface utilisateur pour la gestion du plugin.
 - Tester les transactions Pi dans un environnement sécurisé.
+- **Ajouter la gestion des devises :** intégrer un système permettant la conversion automatique entre la devise WooCommerce et Pi.
 
 ### Tests et Validation
 - Effectuer des tests approfondis pour s'assurer que toutes les fonctionnalités fonctionnent comme prévu.
@@ -48,12 +53,13 @@
 
 ### Documentation
 - Rédiger une documentation complète pour les utilisateurs du plugin.
-- Inclure des guides d'installation et des FAQ pour faciliter l'utilisation.
+- Inclure des guides d'installation, d'utilisation, et une FAQ pour faciliter l'expérience utilisateur.
 
 ### Lancement et Maintenance
 - Lancer le plugin sur le répertoire officiel de plugins WordPress.
-- Fournir des mises à jour régulières et un support pour les utilisateurs.
+- Fournir des mises à jour régulières, notamment pour ajuster les taux de conversion en fonction du marché.
+- Offrir un support technique aux utilisateurs.
 
 ## Conclusion
 
-Le plugin WP-Pay-Pi apportera une nouvelle dimension aux paiements sur WordPress en permettant l'utilisation de la cryptomonnaie Pi Network. Son nom est approprié et reflète bien ses fonctionnalités principales. Ce projet innovant nécessitera une attention particulière à la sécurité et à la simplicité d'utilisation pour garantir une adoption facile et sécurisée par les utilisateurs de WordPress.
+Le plugin WP-Pay-Pi apporte une nouvelle dimension aux paiements sur WordPress en permettant l'utilisation de la cryptomonnaie Pi Network. Avec l'ajout récent de la gestion des devises, il garantit un affichage précis des prix en fonction du contexte monétaire. Ce projet innovant nécessite une attention particulière à la sécurité, à la simplicité d'utilisation, et à l'adaptabilité globale pour garantir son adoption par les utilisateurs WordPress du monde entier.
