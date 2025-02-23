@@ -4,3 +4,15 @@
 .wp-pay-pi-button {
     @include button-style;
 }
+
+.pi-price {
+    display: inline-block;
+    color: #666;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+
+.woocommerce-Price-amount + .pi-price {
+    font-weight: normal;
+    color: #3c8224;
+}
